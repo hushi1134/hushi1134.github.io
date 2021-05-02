@@ -302,7 +302,7 @@ ul {
   background-position: center;
 }
 .bg5 {
-  background: url(assets/images/bg/project-bg.png);
+  background: url(assets/images/gray.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3918,7 +3918,7 @@ body .search-modal .close:hover {
 .rs-counter {
   margin-top: -78px;
   position: absolute;
-  min-width: 860px;
+  min-width: 800px;
   right: 100px;
 }
 .rs-counter .counter-top-area .counter-list .counter-text .count-number {
@@ -3989,18 +3989,38 @@ body .search-modal .close:hover {
   top: 25px;
   font-size: 35px;
 }
-.rs-counter.style2 .counter-top-area .counter-list .counter-text .count-number .rs-count.k {
-  padding-right: 22px;
+.rs-counter.style2 .counter-top-area .counter-list .counter-text .count-number .rs-count.mil {
+  padding-right: 130px;
 }
-.rs-counter.style2 .counter-top-area .counter-list .counter-text .count-number .rs-count.k:before {
-  content: 'k';
+.rs-counter.style2 .counter-top-area .counter-list .counter-text .count-number .rs-count.mil:before {
+  content: 'million';
+  position: absolute;
+  right: 0;
+  top: 25px;
+  font-size: 35px;
+}
+.rs-counter.style2 .counter-top-area .counter-list .counter-text .count-number .rs-count.milplus {
+  padding-right: 155px;
+}
+.rs-counter.style2 .counter-top-area .counter-list .counter-text .count-number .rs-count.milplus:before {
+  content: 'million +';
+  position: absolute;
+  right: 0;
+  top: 25px;
+  font-size: 35px;
+}
+.rs-counter.style2 .counter-top-area .counter-list .counter-text .count-number .rs-count.percent {
+  padding-right: 40px;
+}
+.rs-counter.style2 .counter-top-area .counter-list .counter-text .count-number .rs-count.percent:before {
+  content: '%';
   position: absolute;
   right: 0;
   top: 25px;
   font-size: 35px;
 }
 .rs-counter.style2 .counter-top-area .counter-list .counter-text .title {
-  color: #FFFFFF;
+  color: #000000;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -8771,8 +8791,8 @@ body .search-modal .close:hover {
     30. Footer Section CSS
 ------------------------------------*/
 .rs-footer {
-  background: url(assets/images/bg/footer-bg.png);
-  background-color: #F5F6F9;
+  background: url(assets/images/black.jpg);
+  background-color: #000000;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -8787,15 +8807,16 @@ body .search-modal .close:hover {
   font-size: 22px;
   line-height: 40px;
   font-weight: 600;
-  color: #101010;
+  color: #ffffff;
   margin-bottom: 25px;
 }
+
 .rs-footer .footer-top .site-map li {
   margin-bottom: 12px;
 }
 .rs-footer .footer-top .site-map li a {
   font-size: 16px;
-  color: #454545;
+  color: #999999;
 }
 .rs-footer .footer-top .site-map li a:hover {
   color: #106eea;
@@ -8831,7 +8852,7 @@ body .search-modal .close:hover {
   position: relative;
 }
 .rs-footer .footer-top .address-widget li .desc a {
-  color: #454545;
+  color: #999999;
 }
 .rs-footer .footer-top .address-widget li .desc a:hover {
   color: #106eea;
@@ -8976,7 +8997,7 @@ body .search-modal .close:hover {
   background: #f2541b;
 }
 .rs-footer.style2 {
-  background: url(assets/images/bg/footer-bg2.jpg);
+  background: url(assets/images/black.jpg);
   background-color: #F5F6F9;
   background-size: cover;
   background-repeat: no-repeat;
